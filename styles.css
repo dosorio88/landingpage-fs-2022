@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background: url("https://landing.zytheme.com/siena/assets/images/background/bg-1.png");
+    background-position: left top;
+    font-family: "Lato";
+}
+
+.container {
+    padding: 16px 158px;
+}
+
+header {
+    display: flex;
+    margin-top: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    /*border: 3px solid black;*/
+    flex: 1%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav a {
+    color: #6262a0;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #664ffa;
+}
+
+h1 {
+    color: #6262a0;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+p {
+    color: #ababc7;
+    font-size: 1.2em;
+}
+
+p span {
+    font-size: 0.78em;
+}
+
+.center {
+    text-align: center;
+}
+
+.field-form label {
+    color: #664ffa;
+    font-size: 0.95em;
+    display: block;
+    margin: 5px 0;
+}
+
+.field-form input {
+    background-color: #f7f6ff;
+    color: #222;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1.1em;
+    padding: 6px 6px 6px 18px;
+    width: 100%;
+    outline: none;
+}
+
+h2 {
+    color: #6262a0;
+    font-size: 1.7em;
+    text-align: center;
+    margin: 15px 0;
+}
+
+h3 {
+    color: #6262a0;
+    font-size: 1.3em;
+    text-align: center;
+    margin: 15px 0;
+}
+
+h4 {
+    color: #6262a0;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: #664ffa;
+    border-bottom-color: rgb(102, 79, 250);
+    border-radius: 6px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 10px;
+    text-align: center;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #3b1df9;
+}
+
+#slide-home {
+    display: flex;
+    margin: 80px 10px;
+}
+
+#slide-home .content {
+    flex: 70;
+}
+
+#box-trial {
+    background-color: #fff;
+    padding: 10px 40px;
+    flex: 30;
+    -webkit-box-shadow: 4px 6px 18px 0px rgba(107, 107, 107, 1);
+    -moz-box-shadow: 4px 6px 18px 0px rgba(107, 107, 107, 1);
+    box-shadow: 4px 6px 18px 0px rgba(107, 107, 107, 1);
+}
+
+#slide-feature-title {
+    margin: 0 340px 0 340px;
+}
+
+#slide-feature-opt {
+    display: flex;
+    margin: 80px 0;
+    align-items: center;
+}
+
+#slide-feature-opt .options {
+    align-items: center;
+    margin: 10px 0;
+    background-color: #fff;
+    padding: 10px 40px;
+    flex: 30;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#slide-reviews {
+    display: flex;
+    align-items: center;
+}
+
+#slide-reviews .imagen {
+    margin-right: 50px;
+}
+
+#texto h2 {
+    margin: 15px 50px 0 0;
+    text-align: left;
+}
+
+#texto ul {
+    list-style-image: url("marca.png");
+}
+
+#texto li {
+    color: #ababc7;
+    font-size: 1.2em;
+    display: list-item;
+}
+
+#slide-clients {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+#slide-clients .texto {
+    text-align: left;
+}
+
+#slide-clients .imagen {
+    margin-left: 50px;
+}
